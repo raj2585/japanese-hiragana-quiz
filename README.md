@@ -1,41 +1,76 @@
-Hiragana Quiz Game
+# Hiragana Quiz Game
 
-Description:
-This program is a Japanese Hiragana Quiz designed to help users practice their knowledge of Hiragana characters. It presents users with a series of Hiragana characters and prompts them to select the corresponding English translation from a set of 4 options.
+## Description
+The **Hiragana Quiz Game** is a terminal-based program designed to help users practice and improve their knowledge of **Japanese Hiragana characters**. It presents a randomized series of questions where the user must match Hiragana characters to their correct English transliterations.
 
-Instructions:
-Run the program.
-Enter the number of questions you want to attempt.
-For each question, you will be shown a Hiragana character and a set of English translation options.
-Enter the number corresponding to your answer.
-After answering all questions, your score, accuracy, and the leaderboard will be displayed.
+---
 
-Features:
-Randomly generates questions to keep each quiz session unique.
-Prevents repeating the same question within a quiz session.
-Calculates and displays total time taken, average time per question, final score, and accuracy.
-Maintains a leaderboard with player names and their accuracies.
+## Instructions
 
-How to Use:
-Compile the program using a C compiler.
-Run the compiled executable.
-Follow the on-screen instructions to take the quiz.
-Enter your name when prompted to add your accuracy to the leaderboard.
+1. **Compile** the program using a C compiler (e.g., `gcc main.c -o hiragana_quiz`).
+2. **Run** the compiled executable.
+3. **Enter** the number of questions you wish to attempt.
+4. For each question:
+   - A Hiragana character will be displayed.
+   - Four English translation options will be shown.
+   - Select your answer by entering the number corresponding to your choice.
+5. After completing the quiz:
+   - Your total score and accuracy will be displayed.
+   - Your name and score will be added to the leaderboard.
 
-Files Included:
-main.c: Contains the source code for the Japanese Hiragana Quiz.
-leaderfile.txt: Text file used to store leaderboard data.
-README.md: Instructions and information about the quiz.
+---
 
-Requirements:
-C compiler (e.g., GCC) to compile the source code.
-Standard C libraries (stdio.h, stdlib.h, time.h, string.h, stdbool.h) for various functionalities.
+## Features
 
-About:
-Author: Raj Khedkar(B23CH1038)
-Version: 1.0
-Date: 18/03/24
+- **Randomized Questions:** Each quiz session is unique with shuffled options.
+- **No Repeats:** Ensures no repetition of characters within a single session.
+- **Performance Metrics:** Displays total time taken, average time per question, score, and accuracy.
+- **Leaderboard:** Stores and displays top performers based on accuracy.
 
-Note:
-The program may have limitations and areas for improvement.
-Feedback and suggestions for improvement are welcome.
+---
+
+## How to Use
+
+1. **Compile:**
+   ```bash
+   gcc main.c -o hiragana_quiz
+   ```
+2. **Run:**
+   ```bash
+   ./hiragana_quiz
+   ```
+3. Follow the on-screen prompts to take the quiz and enter your name at the end to record your score.
+
+---
+
+## Files Included
+
+- `main.c` – Source code for the Hiragana Quiz Game.
+- `leaderfile.txt` – Stores leaderboard data.
+- `README.md` – Documentation and usage guide.
+
+---
+
+## Requirements
+
+- A working C compiler (e.g., GCC).
+- Standard C libraries:
+  - `stdio.h`
+  - `stdlib.h`
+  - `time.h`
+  - `string.h`
+  - `stdbool.h`
+
+---
+
+## About
+
+- **Author:** Raj Khedkar (B23CH1038)  
+- **Version:** 1.0  
+- **Date:** 18/03/2024
+
+---
+
+## Note
+
+This project is a basic implementation and may contain limitations. Feedback, suggestions, and contributions are welcome to improve functionality and expand its scope.
